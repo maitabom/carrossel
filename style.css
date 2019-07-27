@@ -7,3 +7,55 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.carousel-caption {
+    text-align: left;
+    top: 20%;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #09102d;
+}
+
+.carousel-caption h2::before {
+    content: "";
+    border-left: 8px solid #b3fd74;
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+
+.carousel-caption h3 {
+    font-style: italic;
+    font-weight: normal;
+    color: #09102d;
+    padding-top: 15px;
+}
+
+.carousel-caption p {
+    font-style: italic;
+    color: #09102d;
+    padding-top: 15px;
+}
+
+.carousel-indicators {
+    text-align: left;
+    float: left;
+    left: 0% !important;
+    right: inherit;
+    bottom: 3%;
+}
+
+.carousel-indicators li {
+    height: 8px;
+    width: 81px;
+    background-color: #09102d;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-caption {
+        display: block !important;
+    }
+}

@@ -51,6 +51,11 @@
 .carousel-indicators li {
     height: 8px;
     width: 81px;
+    background-color: rgb(9, 16, 45, 0.5);
+    opacity: 1;
+}
+
+.progress-bar {
     background-color: #09102d;
 }
 
